@@ -19,7 +19,7 @@ export default function Footer(){
         
      
           </div>
-        <div className="grid grid-cols-4 grid-rows-1 gap-5 mt-5 ml-12 max-w-7xl text-foot-col-p cursor-grab">
+        <div className="grid grid-cols-4 grid-rows-1 gap-5 mt-5 ml-12 max-w-7xl text-foot-col-p">
             <a>Screen Sharing</a>
             <a>Pricing</a>
             <a>About</a>
