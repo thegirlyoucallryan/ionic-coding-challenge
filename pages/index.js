@@ -17,7 +17,7 @@ export default function Home() {
    
 
     <Layout> 
-        <Hero></Hero>
+        <Hero/>
         <FeaturesSection/>
         <CallToAction/>
       </Layout>

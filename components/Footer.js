@@ -41,11 +41,11 @@ export default function Footer(){
         {/* right footer column */}
 
         <div className="col-span-3 mt-10">
-                    <h1 className="uppercase text-foot-col-head">Subscribe to our newsletter</h1>
-                    <h2 className="mb-5 text-foot-col-p">Get the latest news, articles, and resources, sent to your inbox every week.</h2>
+                    <h1 className="uppercase text-foot-col-head mb-5">Subscribe to our newsletter</h1>
+                    <h2 className="mb-5 text-foot-col-p">Get the latest news, articles, and resources, sent <br/> to your inbox every week.</h2>
 
                     <div className="inline-block">
-                    <input className="px-1 p-2 rounded-md mr-5 text-xs sm:text-lg" placeholder="Email"/>
+                    <input className="px-1 p-2 rounded-md mr-5 text-xs sm:text-xl" placeholder="Email"/>
                     <ButtonOrange>Subscribe</ButtonOrange>
             </div>
             </div>
