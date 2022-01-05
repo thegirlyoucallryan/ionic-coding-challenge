@@ -4,8 +4,9 @@ export default function FeaturesSection(){
     return(
         <div>
             <div className="text-center mt-36">
-                <h3 className=" text-nav-link font-medium text-lg">Features</h3>
-                <h1 className="font-bold text-4xl">A better way to work together</h1>
+                <h3 className=" text-nav-link font-medium text-lg mb-2
+                ">Features</h3>
+                <h1 className="font-bold text-4xl mb-4">A better way to work together</h1>
                 <p className="text-p-grey font-normal text-xl">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam 
                 <br /> voluptatum cupiditate veritatis in accusamus quisquam.</p>
             </div>

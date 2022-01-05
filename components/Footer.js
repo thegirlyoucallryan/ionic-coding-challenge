@@ -8,8 +8,8 @@ export default function Footer(){
 
 
     return(
-        <div className=" bg-footer-bg  px-12 bottom-0 p-8"> 
-        <div className=" grid grid-cols-9 ">
+        <div className=" bg-footer-bg  px-12 bottom-0 right-0 left-0 p-8 "> 
+        <div className=" grid grid-cols-10 ">
     <div className="col-span-6">
         <div className="grid grid-cols-4 grid-rows-1 gap-5 mt-10 ml-12 max-w-7xl  text-foot-col-head">
           <h1 className="uppercase">Solutions</h1>
@@ -39,12 +39,12 @@ export default function Footer(){
         </div>
         </div>
 
-        <div className="col-span-2 mt-10">
+        <div className="col-span-3 mt-10">
             <h1 className="uppercase text-foot-col-head">Subscribe to our newsletter</h1>
             <h2 className="mb-5 text-foot-col-p">Get the latest news, articles, and resources, sent to your inbox every week.</h2>
 
             <div className="inline-block">
-            <input className="px-5 p-2 rounded-md mr-5" placeholder="Email"/>
+            <input className="px-1 p-2 rounded-md mr-5 text-xs sm:text-lg" placeholder="Email"/>
             <ButtonOrange>Subscribe</ButtonOrange>
             </div>
            
