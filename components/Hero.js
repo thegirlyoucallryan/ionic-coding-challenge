@@ -7,6 +7,7 @@ export default function Hero(){
     return(
         
         <div className="grid grid-cols-4 lg:grid-cols-7 w-full top-0  sm:grid-cols-6">
+            {/* headline */}
                 <div className="col-span-4 sm:col-span-5 lg:text-7xl  md:text-4xl sm:text-2xl font-bold  bg-hero-bg">
                             <div className="p-2 px-24 sm:p-5 sm:px-56  mt-36 ">
                             <h1 className=" text-head-blk ">Your best work.</h1> 
@@ -21,6 +22,8 @@ export default function Hero(){
                             </div>
 
                         </div>
+
+                    {/* image */}
         <div className="col-span-0 sm:col-span-2">
                     <img className="w-fit" src="/image.jpg" />
             </div>
